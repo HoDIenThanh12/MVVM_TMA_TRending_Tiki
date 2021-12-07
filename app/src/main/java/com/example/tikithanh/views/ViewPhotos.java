@@ -49,7 +49,7 @@ public class ViewPhotos extends AppCompatActivity {
                 Log.d(TAG,"Thành công");
                 kkk(response.body());
             }
-            // lần cuối
+            // lần cuối Hồ Diên Công asus ghhg
             @Override
             public void onFailure(Call<List<Photos>> call, Throwable t) {
                 Log.d(TAG,"Thất bại");
