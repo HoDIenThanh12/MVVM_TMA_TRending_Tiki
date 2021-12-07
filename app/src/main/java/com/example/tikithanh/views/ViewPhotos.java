@@ -24,6 +24,7 @@ public class ViewPhotos extends AppCompatActivity {
     private static final String url="https://jsonplaceholder.typicode.com/";
     private final String TAG=getClass().getSimpleName();
     //Hồ Diên Công - may client
+    //asus
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
