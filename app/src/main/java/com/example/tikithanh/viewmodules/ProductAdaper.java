@@ -42,6 +42,7 @@ public class ProductAdaper extends RecyclerView.Adapter<ProductAdaper.ProductsVi
         Products b=mProduct.get(position);
         if(b==null)
             return;
+        //hello
         holder.imgProduct.setImageResource(b.getImages());
         holder.tvTitle.setText(b.getTitle());
         holder.tvCategory.setText(b.getCategory_id());
