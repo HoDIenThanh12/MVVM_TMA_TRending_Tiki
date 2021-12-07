@@ -10,6 +10,7 @@ public class Images {
     public int getImages() {
         return images;
     }
+    //hồ diên thanh
 
     public void setImages(int images) {
         this.images = images;
