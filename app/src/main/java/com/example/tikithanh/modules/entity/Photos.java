@@ -11,6 +11,7 @@ public class Photos {
         this.id = id;
         this.title = title;
         this.body = body;
+        //push
     }
 
     public int getUserId() {
