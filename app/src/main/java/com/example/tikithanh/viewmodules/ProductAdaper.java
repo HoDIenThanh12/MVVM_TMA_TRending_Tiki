@@ -46,6 +46,7 @@ public class ProductAdaper extends RecyclerView.Adapter<ProductAdaper.ProductsVi
         holder.imgProduct.setImageResource(b.getImages());
         holder.tvTitle.setText(b.getTitle());
         holder.tvCategory.setText(b.getCategory_id());
+        //hồ diên công
     }
 
     @Override
