@@ -23,7 +23,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ViewPhotos extends AppCompatActivity {
     private static final String url="https://jsonplaceholder.typicode.com/";
     private final String TAG=getClass().getSimpleName();
-
+    //Hồ Diên Công - may client
+    //asus
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,7 +49,7 @@ public class ViewPhotos extends AppCompatActivity {
                 Log.d(TAG,"Thành công");
                 kkk(response.body());
             }
-
+            // lần cuối
             @Override
             public void onFailure(Call<List<Photos>> call, Throwable t) {
                 Log.d(TAG,"Thất bại");
